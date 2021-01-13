@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RuntimeExample : MonoBehaviour
 {
-    public void PrintStr(int i)
+    public static void PrintStr(int i)
     {
         print(" RuntimeExample " + i);
     }
